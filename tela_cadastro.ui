@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 108, 110);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 20pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Realizar Cadastro</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>591</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_nome">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Nome:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_validade">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Validade:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_prescricao">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Prescrição:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_tipo">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Tipo:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_nome">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border-radius: 10px 10px 20px 20px;
+background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_validade">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border-radius: 10px 10px 20px 20px;
+background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_cadastrar">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 10px 10px 20px 20px;
+background-color: rgb(255, 175, 38);
+}
+
+QPushButton:hover{
+border-radius: 10px 10px 20px 20px;
+background-color: rgb(170, 169, 137);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_voltar">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 10px 10px 20px 20px;
+background-color: rgb(255, 175, 38);
+}
+
+QPushButton:hover{
+border-radius: 10px 10px 20px 20px;
+background-color: rgb(170, 169, 137);
+}</string>
+    </property>
+    <property name="text">
+     <string>Voltar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>90</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../.designer/backup/Imagens/drogas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_tipo">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>180</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Analgésico </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Antibiótico</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Anti-Inflamatório</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Outro</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_prescricao">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>130</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Medicamentos Isentos de Prescrição (MIP)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Medicamentos de Venda Sob Prescrição</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sem retenção de receita</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Com retenção de receita</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
